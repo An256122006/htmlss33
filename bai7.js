@@ -76,4 +76,11 @@ function tongtien() {
         return sum += element.price * element.quantity;
     });
     showprice.innerHTML = `Tong tien:${sum.toLocaleString('vi-VN')} VND`;
+};
+bn.onclick=function(){
+    if(cart.length>0){
+        alert("thanh toan thanh cong");
+    }else{
+        alert("gio hang trong");
+    }
 }
