@@ -1,0 +1,28 @@
+#body {
+    position: relative;
+}
+#body input{
+    width: 400px;
+    height: 30px;
+    border-radius: 5px;
+    border: 1px solid gray;
+    padding-left: 5px;
+}
+#icon {
+    position: absolute;
+    top: 15px;
+    left: 930px;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#icon i{
+    font-size: 20px;
+    color: gray;
+}
+button {
+    background-color: #ffffff;
+    border: 0;
+}
