@@ -19,7 +19,7 @@ function up() {
     products.forEach(function (element) {
         div.innerHTML += `<div class="row1"><img src="${element.image}" alt="">
                 <h3>${element.name}</h3>
-                <strong>${element.price.toLocaleString('vi-VN')} VND</strong>
+                <div id="money">${element.price.toLocaleString('vi-VN')} VND</div>
                 <div><button class="buy" onclick="upcart(${element.id})">them san pham</button></div></div>`;
     });
 };
@@ -83,4 +83,4 @@ bn.onclick=function(){
     }else{
         alert("gio hang trong");
     }
-}
+};
